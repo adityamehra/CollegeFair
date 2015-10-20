@@ -1,0 +1,527 @@
+
+<!DOCTYPE HTML>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+        <title>SPANDAN</title>
+
+        <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+        <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen" />
+        <link rel="icon" type="image/png" href="images/spandan.png" />
+
+
+        <!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
+        <!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        <script type="text/javascript" src="jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+
+        <script type="text/javascript">
+
+
+            $('.carousel').carousel();
+
+            $(document).ready(function(e) {
+                var width = $(document).width();
+
+                function goRight() {
+                    $("#animate").animate({
+                        left: width
+                    }, 30000, function() {
+                        setTimeout(goLeft, 50);
+                    });
+                }
+
+                function goLeft() {
+                    $("#animate").animate({
+                        left: 0
+                    }, 30000, function() {
+                        setTimeout(goRight, 50);
+                    });
+                }
+
+                setTimeout(goRight, 50);
+            });
+
+        </script>
+
+
+
+
+        <style>
+
+            #animate {
+                position: fixed;
+                width: 70px;
+                height: 100px;
+                display:block;
+                bottom:40px;
+            }
+
+        </style>
+
+        <meta charset=utf-8 />
+        <title>Flux Slider Demo &#0187; Hardware accelerated image transitions using CSS3</title>
+        <!--[if lte IE 8]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/demo.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+        <!-- Use Zepto for best performance on WebKit based browser -->
+        <!-- <script src="js/zepto/zepto.js" type="text/javascript" charset="utf-8"></script> -->
+
+        <!-- Use jQuery for best compatibility with other CSS3 enabled browsers -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+    </head>
+
+    <body>
+        <div id="frame">
+            <div class="menu">
+                <div class="container clearfix">
+
+                    <div class="grid_6">
+                        <a href="index.php"><img src="images/home.png" /></a>
+                        <a href="https://www.facebook.com/gbpec.spandan" target="_blank"><img src="images/facebook.png" /></a>
+                        <a href="https://twitter.com/techspandan" target="_blank"><img src="images/twitter.png" /></a>
+                        <a href="https://techspandan.gbpec@gmail.com" target="_blank"><img src="images/google+.png" /></a>
+                    </div>
+
+                    <div id="nav" class="grid_12">
+                        <ul class="navigation">
+                            <li data-slide="1">SPANDAN</li>
+                            <li data-slide="2">GALLERY</li>
+                            <li data-slide="3">CONTACT US</li>
+                            <li data-slide="4">CREDITS</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5" >
+                <div class="container clearfix">
+                    <div id="content" class="grid_12">
+                        <img src="images/Spandan13/spandan.jpg" style="opacity:0.4;filter:Alpha(opacity=40);"/>
+                    </div>
+                </div>
+            </div>
+
+            <img src="images/small_robot.gif" id="animate" />
+
+            <div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+                <div class="container clearfix">
+                    <div id="content" class="grid_12">
+                        <div id="myCarousel" class="carousel slide">  
+                            <!-- Carousel items -->
+                            <div class="carousel-inner" align="center">
+                                <div class="active item" ><img src="images/Spandan13/IMG1.jpg" alt="" />
+                                </div>
+                                <div class="item"><img src="images/Spandan13/IMG2.jpg" alt="" />
+                                </div>
+                                <div class="item"><img src="images/Spandan13/IMG3.jpg" alt="" />
+                                </div>
+                                <div class="item"><img src="images/Spandan13/IMG4.jpg" alt="" />
+                                </div>
+                                <div class="item"><img src="images/Spandan13/IMG5.jpg" alt="" />
+                                </div>
+                                <div class="item"><img src="images/Spandan13/IMG6.jpg" alt="" />
+                                </div>
+                            </div>
+                            <!-- Carousel nav -->
+                            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                        </div>			
+
+
+
+                    </div> 
+                </div>
+            </div>
+
+
+
+            <div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+                <div class="container clearfix">
+
+                    <div id="content" class="grid_12">
+                        <h1>OUR TEAM</h1>
+                    </div>
+<div style="height:250px;width:200px;padding:20px;float:left;">
+                        
+                        
+                    </div>
+                    <div style="height:250px;width:200px;padding:20px;float:left;">
+                        
+                        
+
+                    </div>
+                    <div style="height:250px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/pritidimrimam.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Dr. Priti Dimri<br />Faculty Incharge</p>
+
+                    </div>
+                    
+                    <div style="height:250px;width:200px;padding:20px;float:left;">
+                        
+
+                    </div>
+                    
+                    <div style="height:250px;width:200px;padding:20px;float:left;">
+                        
+
+                    </div>
+
+                    <div style="height:250px;width:250px;padding:20px;float:left;">
+                        <img src="images/dp/navsir.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Navneet Kaushal<br /><strong>Convener Admin</strong><br />er.navneetkaushal@gbpec.in</p>
+
+                    </div>
+                   
+                    <div style="height:250px;width:250px;padding:20px;float:left;">
+                        <img src="images/dp/rahulsir.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Rahul Kumar Singh<br /><strong>Convener Events</strong><br />singhrahulkumar1992@gbpec.in</p>
+
+                    </div>
+
+                    <div style="height:250px;width:250px;padding:20px;float:left;">
+                        <img src="images/dp/sankalp.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Sankalp Gupta<br /><strong>Convener Sponsorship</strong><br />sankyg@gbpec.in</p>
+
+                    </div>
+                    
+                     <div style="height:250px;width:250px;padding:20px;float:left;">
+                        <img src="images/dp/ashusir.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Ashutosh<br /><strong>Convener Finance</strong><br />ashutoshsonu@gbpec.in</p>
+
+                    </div>
+                    
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/shubhendra.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Shubhendra Pratap<br /><strong>Co-convener Finance</strong></p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/aman.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Aman Rai<br />Head Hospitality</p>
+
+                    </div>
+                    
+                     <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/aartiloshali.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Aarti Loshali<br />Head Hospitality</p>
+
+                    </div>
+
+                    
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/kritikapandey.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Kritika Pandey<br />Head Robovault</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/sharul.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Sharul<br/>Head Media</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/himanshukarki.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Himanhsu Karki<br />Head Arcadia</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/vibhor.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Vibhor Gupta<br />Head DigitalEye</p>
+
+                    </div>
+
+                   
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/rashmi.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Rashmi Sharma<br />Head Electra</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/prince.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Prince Batra<br />Head Mech-O-Mania</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/ankit.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Ankit Agrawal<br />Head Soft_Tricks</p>
+
+                    </div>
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/vidushiwalia.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Vidushi Walia<br />Head Gen-O-Tech</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/ashim.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Ashim Vats<br />Head Civiature</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/akshayraina.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Akshay Raina<br />Head Literatus</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/sankalpmishra.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Sankalp Mishra<br />Head Literatus</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/adityalakhera.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Aditya Lakhera<br />Incharge Star Night</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/abhijeetsaini.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Abhijeet Saini<br />Incharge Star Night</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/shrishtisingh.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Shrishti Singh<br />Head Informals</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/rahulnautiyal.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Rahul Nautiyal<br />Head Informals</p>
+
+                    </div>
+
+
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/aditya.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Aditya Mehra<br />Manager Web<br />9690706791</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/gautam.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Himanshu Gautam<br />Manager Web</p>
+
+                    </div>
+                    
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                            <img src="images/dp/mani.jpg" class="img-circle" style="height:140px;width:140px" alt="Manish"/>
+                            <p>Manish Negi<br />Manager Design</p>    
+                        </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/ashishsrivastav.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Ashish Srivastava<br />Manager Finanace</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/rajneesh.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Rajneesh Panwar<br />Manager Sponsorship</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/anchit.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Anchit Arora<br />Manager Sponsorship</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/ashishbisht.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Ashish Bisht<br />Manager Promotion</p>
+
+                    </div>
+
+
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/shubham.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Shubham Gupta<br />Manager Events</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/abhishekshankwar.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Abhishek Shankwar<br />Manager Events</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/misbah.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Misbah Irshad<br />Manager Events</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/shefali.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Shefali Sonkar<br />Manager Events</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/anupam.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Anupam Molpha<br />Manager Publicity</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/prachi.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Prachi Parashar<br />Manager Publicity</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/sujeet.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Sujeet Kainthola<br />Manager Media</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/lakshya.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Lakshya Bhalla<br />Manager Hospitality</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/vithika.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Vithika Joshi<br />Manager Hospitality</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/vivek.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Vivek Sinha<br />Content Creator</p>
+
+                    </div>
+
+                    
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/pratiksha.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Pratiksha Yadav<br />Manager Design</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/durgesh.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Durgesh Singh<br />Manager Design</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/varsha.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Varsha Badoni<br />Manager Design</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/himanshubisht.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Himanhsu Bisht<br />Manager Relations</p>
+
+                    </div>
+
+                    <div style="height:200px;width:200px;padding:20px;float:left;">
+                        <img src="images/dp/nisha.jpg" class="img-circle" style="height:140px;width:140px" />
+                        <p>Nisha Bangwal<br />Manager Relations</p>
+
+                    </div>
+
+                    
+
+                </div>
+            </div>
+
+
+
+            <div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
+                <div class="container clearfix">
+
+                    <div id="content" class="grid_12">
+                        <h2>Credits:</h2>
+                        <br />
+                        <div style="height:200px;width:200px;padding:20px;float:left;">
+                            <img src="images/dp/manojpanda.jpg" class="img-circle" style="height:140px;width:140px" alt=""/>
+                            <p>Dr. Manoj Panda</p>   
+                        </div>
+                        <div style="height:200px;width:200px;padding:20px;float:left;">
+                              
+                        </div>
+                        <div style="height:200px;width:200px;padding:20px;float:left;">
+                               
+                        </div>
+                        
+                        <div style="height:200px;width:200px;padding:20px;float:left;">
+                               
+                        </div>
+                        <div style="height:200px;width:200px;padding:20px;float:left;">
+                               
+                        </div>
+                        <br />
+                        <h2>Website Designed By:</h2>
+                        <div style="height:200px;width:200px;padding:20px;float:left;">
+                            <img src="images/dp/aditya.jpg" class="img-circle" style="height:140px;width:140px" alt="ADITYA"/>
+                            <p>Aditya Mehra</p>
+                        </div>
+                        <div style="height:200px;width:200px;padding:20px;float:left;">
+                            <img src="images/dp/mani.jpg" class="img-circle" style="height:140px;width:140px" alt="ManishH"/>
+                            <p>Manish Negi</p>    
+                        </div>
+                        <div style="height:200px;width:200px;padding:20px;float:left;">
+                            <img src="images/dp/gautam.jpg" class="img-circle" style="height:140px;width:140px" alt="HIMANSHU"/>
+                            <p>Himashu Gautam</p>                         
+                        </div>
+                        <div style="height:200px;width:200px;padding:20px;float:left;">
+                               
+                        </div>
+                        <div style="height:200px;width:200px;padding:20px;float:left;">
+                               
+                        </div>
+                        <br />
+                        <h2>Special Thanks to:</h2>
+                        <div style="height:200px;width:200px;padding:20px;float:left;">
+                            <img src="images/dp/vikrant.jpg" class="img-circle" style="height:140px;width:140px" alt="HIMANSHU"/>
+                            <p>Vikrant Sharma</p>                         
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+            <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+            <script type="text/javascript" src="js/waypoints.min.js"></script>
+            <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+            <script type="text/javascript" src="js/scripts.js"></script>
+            <!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
+        </div>   
+    </body>
+</html>
