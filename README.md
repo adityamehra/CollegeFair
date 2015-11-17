@@ -7,4 +7,4 @@
 
 1. index.html file is the index file that has links to all the other webpages.
 2. Most of the server side scripting was done in php.
-3. Interface is kinda confusing, bear with it.
+3. Please feel to click around the planets, as they are there for UI.
